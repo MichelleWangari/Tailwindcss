@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+  <!--Navbar-->
+  <nav class="fixed top-0 w-full bg-gray-900 text-white flex justify-between items-center px-8 py-4 z-50">
+    <div class="text-xl font-bold">My Brand</div>
+    <ul class="hidden md:flex space-x-6">
+      <li><a href="#hero" class="hover:text-white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-red-500 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+      <li><a href="#about" class="hover:text-white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-red-500 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li>
+      <li><a href="#services" class="hover:text-white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-red-500 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Services</a></li>
+      <li><a href="#contact" class="hover:text-white transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-red-500 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact</a></li>
+
+      
+    </ul>
+    <div class="md:hidden text-2xl cursor-pointer text-white">&#9776;</div>
+  </nav>
+  <!--Hero section-->
+  <header id="hero" class="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-white text-center" style="background-image: url(assets/pexels-andersonguerra-1115128.jpg);">
+    
+    <div class="bg-black bg-opacity-40 text-center p-8" >
+      <h1 class="text-white font-bold text-3xl">Welcome to my Beauty Website.</h1>
+      <p class=" mt-2 mb-6 text-white text-xl">We help you feel beautiful and confident in yourself.</p>
+      <div class="flex justify-center"></div>
+      <a href="#contact" class=" inline-block mt-2 mb-2 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-300 transition">Get Started</a>
+      
+      
+    </div>
+      
+      
+    
+  </header>
+  <!--Main Section-->
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>We specialize in making ladies of all kinds of age feel beautiful and cofident in their own skin</p>
+    </section>
+    <section class="w-full">
+      <h2>Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+      <div class="bg-gray-400 shadow-lg rounded-lg p-4 mt-3">
+        <h3>Bridal makeup</h3>
+        <p>We offer bridal makeup to make brides feel beautiful on their special day</p>
+
+      </div>
+      <div class="bg-gray-400 shadow-lg rounded-lg  p-6 mt-3">
+        <h3>Evening glam</h3>
+        <p>we offer evening glam to make you pop out and shine for those parties</p>
+
+      </div>
+      <div class="bg-gray-400 shadow-lg rounded-lg p-6 mt-3">
+        <h3>Simple look</h3>
+        <p>For when you want a soft natural glow</p>
+
+      </div>
+    </div>
+    </section>
+  </main>
+ 
+    
+</body>
+</html>
